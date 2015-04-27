@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="2.8" jmeter="2.13 r1665067">
+<jmeterTestPlan version="1.2" properties="2.7" jmeter="2.12 r1636949">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -37,12 +37,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="QA2" elementType="Argument">
             <stringProp name="Argument.name">QA2</stringProp>
-            <stringProp name="Argument.value">barnet-qa2.technophobia.int</stringProp>
+            <stringProp name="Argument.value">qa-env-url</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="UAT" elementType="Argument">
             <stringProp name="Argument.name">UAT</stringProp>
-            <stringProp name="Argument.value">barnet-gateway.technophobia.int</stringProp>
+            <stringProp name="Argument.value">uat-env-url</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="FF" elementType="Argument">
